@@ -13,7 +13,7 @@
             <th>Color</th>
             <th>Number</th>
         </tr>
-        <tr th:each ="car : ${allCars}">
+        <tr th:each ="car : ${cars}">
             <td th:text="${car.model}"></td>
             <td th:text="${car.color}"></td>
             <td th:text="${car.number}"></td>
